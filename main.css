@@ -147,20 +147,20 @@ header .sub-menu .search input{
   transition: width .4s;
 }
 header .sub-menu .search input:focus{
-width: 190px;
-border-color: #669900;
+  width: 190px;
+  border-color: #669900;
 }
 header .sub-menu .search .material-icons{
-height: 24px;
-position: absolute;
-top: 0;
-bottom: 0;
-right: 5px;
-margin: auto;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto;
 }
 header .sub-menu .search.focused .material-icons{
-opacity: 0;
-transition: .4s;
+  opacity: 0;
+  transition: .4s;
 }
 header .main-menu{
   position: absolute;
@@ -169,9 +169,9 @@ header .main-menu{
   z-index: 1;
   display: flex;
 }
-header .main-menu .item{
+/* header .main-menu .item{
 
-}
+} */
 header .main-menu .item .item__name{
   padding: 10px 20px 34px 20px;
   font-family: Arial, sans-serif;
@@ -540,4 +540,23 @@ color: #fff;
   position: absolute;
   top: 0;
   left: 0;
+}
+.youtube .inner {
+  height: 700px;
+  background-color: royalblue;
+}
+.youtube .floating1 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.youtube .floating2 {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+.youtube .floating3 {
+  position: absolute;
+  bottom: -200px;
+  right: 0;
 }
